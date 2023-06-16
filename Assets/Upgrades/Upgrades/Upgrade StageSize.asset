@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457fca1d91185704db504618f424124c, type: 3}
+  m_Name: Upgrade StageSize
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5647169260566145780, guid: 2ca6a7b711a28064e852f5a32780b626, type: 3}
+  icon: {fileID: -1293383996, guid: 46c54fa8bffcf39429e2ceb44c1877a5, type: 3}
+  removeOnUse: 1
+  count: 5
+  screenSizeMultiplier: 0.1

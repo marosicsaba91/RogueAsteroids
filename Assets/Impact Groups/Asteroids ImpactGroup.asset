@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b01e6a0d52df824fa1ec9c3aa07da03, type: 3}
+  m_Name: Asteroids ImpactGroup
+  m_EditorClassIdentifier: 
+  interactList:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: a56a09c4f3ba7804fae5f777cc45f157, type: 2}
+  - {fileID: 11400000, guid: 35eaacd6b44cd104b935ec4c61a3a8eb, type: 2}
+  - {fileID: 11400000, guid: 540a40be3d088384d8cbaa034f0bc109, type: 2}
+  damageMultipliers:
+  - impactGroup: {fileID: 11400000}
+    multiplier: 0
+  - impactGroup: {fileID: 11400000, guid: 540a40be3d088384d8cbaa034f0bc109, type: 2}
+    multiplier: 0.4
+  pushMultipliers:
+  - impactGroup: {fileID: 11400000}
+    multiplier: 0

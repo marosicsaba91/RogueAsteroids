@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e20dbadd202cf32418bcadcfc1ed0fc3, type: 3}
+  m_Name: Upgrade ShipMovement Acceleration
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1909840378953657949, guid: 3cb89a2b067f5024881a009ed5c7ac0e, type: 3}
+  icon: {fileID: 41339614, guid: 46c54fa8bffcf39429e2ceb44c1877a5, type: 3}
+  removeOnUse: 1
+  count: 2
+  dragMultiplier: 0
+  accelerationMultiplier: 0.6
+  angularSpeedMultiplier: 0

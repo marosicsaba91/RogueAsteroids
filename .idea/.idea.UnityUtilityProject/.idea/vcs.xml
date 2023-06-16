@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/Small Projects/Mesh To Block Builder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/ComponentRegistry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/LooseLink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/MarosiUtility" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/PlayBox" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/PlayLogger" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/SerializableCollections" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/StarterAssets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/VoxelSystem" vcs="Git" />
+  </component>
+</project>

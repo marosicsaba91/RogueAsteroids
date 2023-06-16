@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cf34e57-b3bb-4ecd-88bf-88cf2a3ba95d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.UnityUtilityProject/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Sample/SerializedDictionaryExamples.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Sample/SerializedDictionaryExamples.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityUtilityProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityUtilityProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/ComponentRegistry" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/ComponentRegistry" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/ComponentRegistry/Sample/Mouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/ComponentRegistry/Sample/Mouse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/ParameterSystem" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/ParameterSystem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/ParameterSystem/Sample/State Machine Sample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/ParameterSystem/Sample/State Machine Sample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/ParameterSystem/Script/Basic Usage/PositionParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/ParameterSystem/Script/Basic Usage/PositionParameter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/SerializableCollections" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/SerializableCollections" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Sample/SerializableCollectionExample.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Sample/SerializableCollectionExample.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/Editor/SerializableDictionaryDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/Editor/SerializableDictionaryDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/SerializableDictionary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/SerializableDictionary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/Tools/SerializableCollections" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Shadow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEngine.TestRunner/NUnitExtensions/Commands/ImmediateEnumerableCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Experimental/VcamStageEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEditor.TestRunner/GUI/IAssetsDatabaseHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/PostProcessing/CinemachinePostProcessingEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Editor/DownloadableSample.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6b1444477c1d41c692ef6c02a838308529ac30/91/ba6dec4d/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/ff/2399d595/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Impulse/CinemachineImpulseListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Impulse/CinemachineCollisionImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a762163a9d8940379c4a7fefdfb42d83b4200/79/f91b11a7/IMGUIContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Editor/AssetImporter/InputActionCodeGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Condition/PlatformServiceSourceCondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/PropertyDrawers/EmbeddedAssetPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/c5/0c6d6f61/SearchFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/25/3204b9c4/HostView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/83/f82289a9/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e5929a3c585410b9f19f645e265735e118200/99/6e82c760/Resources.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/96/4d10f98d/MonoScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEditor.TestRunner/NUnitExtension/TestRunnerStateSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/UwpPlatformSetup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/DesktopInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fbf411079f9349af9d7283cbbd3a7c7c15a00/a8/e3797889/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/bf/e4605635/BindingFlags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/8e/d50547d9/EditorGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/e7/21fe038d/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Plugins/Linux/LinuxSupport.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEditor.TestRunner/Api/ITestAdaptor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/4d/f57cc7c7/EditorWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Editors/CinemachineSmoothPathEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/EventSystem/InterceptedEventsPreviewTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystemObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/e9/274eb9e0/EditorGUIUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Core/AxisState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Components/CinemachineComposer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Plugins/WebGL/WebGLGamepad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/e8/593bcb69/IServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Editor/Settings/EditorPlayerSettingHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Components/CinemachineTransposer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e5929a3c585410b9f19f645e265735e118200/3a/bd118534/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEngine.TestRunner/Utils/Utils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e5929a3c585410b9f19f645e265735e118200/e4/2ed0e15d/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/PropertyDrawers/FontDataDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Managers/CursorButtonsMovementProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditor/SpriteEditorWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/GraphicEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ILayoutElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputAnalytics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Core/CinemachineExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/IInputInteraction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Core/UnityVectorExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/HorizontalOrVerticalLayoutGroupEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.3/Editor/VSCodeScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/fd/14121d09/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEditor.TestRunner/TestSettings/ITestSettingsDeserializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Utility/ScriptableObjectUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.vscode@1.2.3/Editor/ProjectGeneration/AssemblyNameProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351e49e2a5bf4fd6beabb458ce2255f3ff600/ca/7363510e/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/9f/b2d6468a/IEnumerator`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Runtime/Core/CinemachineInputAxisDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/RectMask2DEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.10/Editor/Windows/CinemachineColliderPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.visualstudio@2.0.11/Editor/VisualStudioEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fdb4e7a229ae4ef791f6716e71e93744794000/23/bab4cea3/AssetDatabase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/13/a3f8d31f/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tools/SerializableCollections/Sample/SerializedDictionaryExamples.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eae584ce26bc40229c1b1aa476bfa5893e2600/a4/2aa323bd/String.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Marosi Utility/Editor/EditorHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/ITimeProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/TimeProviderBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/ServiceLocatorScripFilesTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/ServiceLocatorPrefabTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/ServiceLocatorSceneGameObjectTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Interfaces/IServiceTestInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/TestScripts/ServiceLocatorScriptableObjectTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Interfaces/ITimeProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Interfaces/IAvatarInputProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/UnityServiceLocatorTestComponent3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/WASD_AvatarInputcomponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/WASD_AvatarInputComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/TestScripts/ServiceLocatorSceneGameObjectTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/UnityServiceLocatorTestScriptableObject2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/UnityServiceLocatorTestInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Clock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Managers/WASD_InputProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/Clients/Clock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Tests/ServiceLocatorPrefabTests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Installer/IServiceSourceSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/ServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Installer/ServiceSourceSet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Installer/SceneServiceInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/ServiceEnvironment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Editor/InstallerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Editor/ServiceSourceDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Editor/TagsColumn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Editor/ServicesColumn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Scripts/Editor/ServiceSourceColumn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/TODO.txt" />
+        <option value="$PROJECT_DIR$/Assets/Tools/ParameterSystem/Script/Basic Usage/PositionParameter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/ComponentRegistry/Sample/Mouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Sample/SerializedDictionaryExamples.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/Editor/CollectionDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/SerializableDictionary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tools/SerializableCollections/Scripts/Editor/SerializableDictionaryDrawer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1t4dc2xsdm3qtCVvDSjw50X4AND" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.29067641" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\UnityUtilities.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\OneDrive\Projektek\UnityUtilityProject\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cf34e57-b3bb-4ecd-88bf-88cf2a3ba95d" name="Default Changelist" comment="" />
+      <created>1622032371711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622032371711</updated>
+      <workItem from="1622032375629" duration="394000" />
+      <workItem from="1622300354439" duration="10606000" />
+      <workItem from="1622651199168" duration="5321000" />
+      <workItem from="1622662554462" duration="7066000" />
+      <workItem from="1622806421198" duration="31071000" />
+      <workItem from="1623063491575" duration="826000" />
+      <workItem from="1623305942394" duration="1295000" />
+      <workItem from="1623337946027" duration="14490000" />
+      <workItem from="1623418479836" duration="2729000" />
+      <workItem from="1623680802125" duration="9226000" />
+      <workItem from="1623745542069" duration="8998000" />
+      <workItem from="1623760780137" duration="405000" />
+      <workItem from="1623963980238" duration="6108000" />
+      <workItem from="1624968031457" duration="21856000" />
+      <workItem from="1625819293926" duration="18554000" />
+      <workItem from="1625928244295" duration="9989000" />
+      <workItem from="1625997483564" duration="7659000" />
+      <workItem from="1626304473961" duration="2918000" />
+      <workItem from="1626307426549" duration="1769000" />
+      <workItem from="1628142464607" duration="3831000" />
+      <workItem from="1628856694708" duration="7677000" />
+      <workItem from="1629239224097" duration="25283000" />
+      <workItem from="1629537957552" duration="8260000" />
+      <workItem from="1629824663976" duration="3319000" />
+      <workItem from="1629828231897" duration="4418000" />
+      <workItem from="1630320650632" duration="4623000" />
+      <workItem from="1630448327265" duration="3570000" />
+      <workItem from="1630453632052" duration="1762000" />
+      <workItem from="1630526119066" duration="10718000" />
+      <workItem from="1630677389197" duration="7605000" />
+      <workItem from="1630687418675" duration="21744000" />
+      <workItem from="1631020653078" duration="32463000" />
+      <workItem from="1631357395480" duration="7441000" />
+      <workItem from="1631526099798" duration="11932000" />
+      <workItem from="1631616920438" duration="6468000" />
+      <workItem from="1631799393019" duration="4001000" />
+      <workItem from="1631879006222" duration="5029000" />
+      <workItem from="1632039186215" duration="6927000" />
+      <workItem from="1632082515741" duration="8976000" />
+      <workItem from="1632133411821" duration="32000" />
+      <workItem from="1632133482304" duration="2602000" />
+      <workItem from="1632222252321" duration="33827000" />
+      <workItem from="1632400560030" duration="1871000" />
+      <workItem from="1632567470452" duration="9117000" />
+      <workItem from="1632579718750" duration="24870000" />
+      <workItem from="1632677371734" duration="11525000" />
+      <workItem from="1632925849789" duration="10886000" />
+      <workItem from="1632956337685" duration="27897000" />
+      <workItem from="1633102810385" duration="22781000" />
+      <workItem from="1634295590707" duration="2423000" />
+      <workItem from="1634302025840" duration="70443000" />
+      <workItem from="1634833390554" duration="4614000" />
+      <workItem from="1634838062576" duration="16921000" />
+      <workItem from="1635262347740" duration="31797000" />
+      <workItem from="1635424464710" duration="21392000" />
+      <workItem from="1635494459917" duration="2894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Assets/MarosiUtility" />
+      <path value="$PROJECT_DIR$/Assets/OutsideTools/UnityEditorIcons" />
+      <path value="$PROJECT_DIR$/Assets/Tools/LooseServices" />
+    </ignored-roots>
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/LooseServices/RunTime/Editor/ServiceLocatorWindow.cs</url>
+          <line>181</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\LooseServices\RunTime\Editor\LooseServiceWindow.cs" initialLine="170" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/RunTime/ServiceLocator.cs</url>
+          <line>139</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\RunTime\ServiceLocator.cs" initialLine="139" />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/RunTime/ServiceLocator.cs</url>
+          <line>156</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\RunTime\ServiceLocator.cs" initialLine="156" />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/RunTime/ServiceLocator.cs</url>
+          <line>153</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\RunTime\ServiceLocator.cs" initialLine="153" />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/RunTime/ServiceLocator.cs</url>
+          <line>157</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\RunTime\ServiceLocator.cs" initialLine="157" />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/RunTime/ServiceLocator.cs</url>
+          <line>57</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\RunTime\ServiceLocator.cs" initialLine="57" />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests/ServiceLocatorPrefabTests.cs</url>
+          <line>48</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests\ServiceLocatorPrefabTests.cs" initialLine="48" />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests/ServiceLocatorPrefabTests.cs</url>
+          <line>54</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests\ServiceLocatorPrefabTests.cs" initialLine="54" />
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests/ServiceLocatorPrefabTests.cs</url>
+          <line>63</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests\ServiceLocatorPrefabTests.cs" initialLine="63" />
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/TestScripts/ServiceLocatorPrefabTests.cs</url>
+          <line>50</line>
+          <properties documentPath="C:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests and Sample\Scripts\ServiceLocatorPrefabTests.cs" initialLine="50" />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/TestScripts/ServiceLocatorPrefabTests.cs</url>
+          <line>52</line>
+          <properties documentPath="C:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests and Sample\Scripts\ServiceLocatorPrefabTests.cs" initialLine="52" />
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Scripts/TestScripts/ServiceLocatorPrefabTests.cs</url>
+          <line>56</line>
+          <properties documentPath="C:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests and Sample\Scripts\ServiceLocatorPrefabTests.cs" initialLine="56" />
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Tests/ServiceLocatorPrefabTests.cs</url>
+          <line>60</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests and Sample\Tests\ServiceLocatorPrefabTests.cs" initialLine="63" />
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/UnityServiceLocator/Tests and Sample/Tests/ServiceLocatorPrefabTests.cs</url>
+          <line>58</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\UnityServiceLocator\Tests and Sample\Tests\ServiceLocatorPrefabTests.cs" initialLine="61" />
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/StateMachine/Script/StateMachine/Editor/StateMachineIconHelper.cs</url>
+          <line>39</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\StateMachine\Script\Editor\StateType.cs" initialLine="41" />
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/StateMachine/Script/StateMachine/Editor/StateMachineIconHelper.cs</url>
+          <line>59</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\StateMachine\Script\Editor\StateType.cs" initialLine="61" />
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Marosi Utility/Runtime/InspectorElements/InspectorProperty.cs</url>
+          <line>29</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Marosi Utility\Runtime\InspectorElements\InspectorProperty.cs" initialLine="29" />
+          <option name="timeStamp" value="525" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tools/ParameterSystem/Script/Parameters/Editor/ParameterDrawer.cs</url>
+          <line>37</line>
+          <properties documentPath="D:\OneDrive\Projektek\UnityUtilityProject\Assets\Tools\ParameterSystem\Script\Parameters\Editor\ParameterDrawer.cs" initialLine="44" />
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#UnityServiceLocator.DynamicServiceSource" memberName="_allAbstractTypes" />
+        <PinnedItemInfo parentTag="Type#UnityServiceLocator.DynamicServiceSource" memberName="_typeToServiceOnSource" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="this._isDynamicTypeDataInitialized" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

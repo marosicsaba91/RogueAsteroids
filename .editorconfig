@@ -1,0 +1,336 @@
+﻿[*.{cs,vb}]
+root = true
+
+
+# ---------- Basics ----------
+
+dotnet_analyzer_diagnostic.severity = warning
+dotnet_analyzer_diagnostic.category-Style.severity = warning
+
+ 
+# ---------- Naming styles ----------
+
+# Naming rules
+
+dotnet_naming_rule.interface_should_be_begins_with_i.severity = warning
+dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
+dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
+
+dotnet_naming_rule.types_should_be_pascal_case.severity = warning
+dotnet_naming_rule.types_should_be_pascal_case.symbols = types
+dotnet_naming_rule.types_should_be_pascal_case.style = pascal_case
+
+dotnet_naming_rule.non_field_members_should_be_pascal_case.severity = warning
+dotnet_naming_rule.non_field_members_should_be_pascal_case.symbols = non_field_members
+dotnet_naming_rule.non_field_members_should_be_pascal_case.style = pascal_case
+
+dotnet_naming_rule.non_private_fields_should_be_camel_case.severity = warning
+dotnet_naming_rule.non_private_fields_should_be_camel_case.symbols = non_private_fields
+dotnet_naming_rule.non_private_fields_should_be_camel_case.style = camel_case
+
+# Symbol specifications
+
+dotnet_naming_symbols.interface.applicable_kinds = interface
+dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.interface.required_modifiers = 
+
+dotnet_naming_symbols.types.applicable_kinds = class, struct, interface, enum
+dotnet_naming_symbols.types.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.types.required_modifiers = 
+
+dotnet_naming_symbols.non_field_members.applicable_kinds = property, event, method
+dotnet_naming_symbols.non_field_members.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.non_field_members.required_modifiers =
+
+dotnet_naming_symbols.non_private_fields.applicable_kinds = field, 
+dotnet_naming_symbols.non_private_fields.applicable_accessibilities = public, internal, protected, protected_internal, private_protected
+dotnet_naming_symbols.non_private_fields.required_modifiers = 
+
+# Naming style definitions
+
+# IInterface
+dotnet_naming_style.begins_with_i.required_prefix = I
+dotnet_naming_style.begins_with_i.required_suffix = 
+dotnet_naming_style.begins_with_i.word_separator = 
+dotnet_naming_style.begins_with_i.capitalization = pascal_case
+
+# PascalCase
+dotnet_naming_style.pascal_case.required_prefix = 
+dotnet_naming_style.pascal_case.required_suffix = 
+dotnet_naming_style.pascal_case.word_separator = 
+dotnet_naming_style.pascal_case.capitalization = pascal_case 
+
+# camelCase
+dotnet_naming_style.camel_case.required_prefix = 
+dotnet_naming_style.camel_case.required_suffix = 
+dotnet_naming_style.camel_case.word_separator = 
+dotnet_naming_style.camel_case.capitalization = camel_case 
+
+
+# ---------- Coding Style ----------
+
+# Accessibility modifiers
+dotnet_style_require_accessibility_modifiers = never
+
+# Namespaces
+csharp_style_namespace_declarations = file_scoped:suggestion
+csharp_using_directive_placement = outside_namespace:suggestion
+csharp_prefer_simple_using_statement = false:suggestion
+
+csharp_style_unused_value_expression_statement_preference = discard_variable:none
+csharp_style_prefer_method_group_conversion = true:suggestion
+csharp_style_prefer_top_level_statements = true:suggestion
+
+# Expression bodies
+csharp_style_expression_bodied_methods = true:none
+csharp_style_expression_bodied_constructors = false:none
+csharp_style_expression_bodied_operators = true:suggestion
+csharp_style_expression_bodied_properties = true:suggestion
+csharp_style_expression_bodied_indexers = true:suggestion
+csharp_style_expression_bodied_accessors = true:suggestion
+csharp_style_expression_bodied_lambdas = true:suggestion
+csharp_style_expression_bodied_local_functions = true:suggestion
+
+# Use language keywords instead of framework type names for type references
+dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
+dotnet_style_predefined_type_for_member_access = true:suggestion
+
+# Suggest more modern language features when available
+dotnet_style_object_initializer = true:suggestion
+dotnet_style_collection_initializer = true:suggestion
+dotnet_style_coalesce_expression = true:suggestion
+dotnet_style_null_propagation = true:suggestion
+dotnet_style_explicit_tuple_names = true:suggestion
+
+# Blank lines
+csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = true:silent
+csharp_style_allow_blank_lines_between_consecutive_braces_experimental = true:silent
+csharp_style_allow_blank_line_after_token_in_conditional_expression_experimental = true:silent
+csharp_style_allow_blank_line_after_token_in_arrow_expression_clause_experimental = true:silent
+
+# Conditional expression
+	# IDE0045: Convert to conditional expression
+dotnet_diagnostic.IDE0045.severity = none
+	# IDE0046: Convert to conditional expression
+dotnet_diagnostic.IDE0046.severity = none
+csharp_style_conditional_delegate_call = true:none
+
+# Pattern matching
+csharp_style_prefer_pattern_matching = true:suggestion
+csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
+csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
+csharp_style_prefer_not_pattern = true:suggestion
+csharp_style_prefer_extended_property_pattern = true:suggestion
+
+# Avoid "this." and "Me." if not necessary
+dotnet_style_qualification_for_field = false:suggestion
+dotnet_style_qualification_for_property = false:suggestion
+dotnet_style_qualification_for_method = false:suggestion
+dotnet_style_qualification_for_event = false:suggestion
+
+# var
+csharp_style_var_for_built_in_types = false:suggestion
+csharp_style_var_when_type_is_apparent = false:suggestion
+csharp_style_var_elsewhere = false:suggestio
+
+# Indents
+indent_style = tab
+tab_width = 4
+indent_size = 4
+csharp_indent_block_contents = true
+csharp_indent_braces = false 
+csharp_indent_labels = one_less_than_current
+csharp_indent_case_contents = true
+csharp_indent_case_contents_when_block = false 
+csharp_indent_switch_labels = true
+
+# Operators
+csharp_style_prefer_index_operator = true:suggestion
+csharp_style_prefer_range_operator = true:suggestion
+csharp_style_prefer_tuple_swap = true:suggestion
+csharp_style_prefer_utf8_string_literals = true:suggestion
+csharp_style_deconstructed_variable_declaration = true:suggestion
+
+# Spacing
+csharp_space_after_cast = false
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_after_comma = true
+csharp_space_after_dot = false
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_space_after_semicolon_in_for_statement = true
+csharp_space_around_binary_operators = before_and_after
+csharp_space_around_declaration_statements = do_not_ignore
+csharp_space_before_colon_in_inheritance_clause = true
+csharp_space_before_comma = false
+csharp_space_before_dot = false
+csharp_space_before_open_square_brackets = false
+csharp_space_before_semicolon_in_for_statement = false
+csharp_space_between_empty_square_brackets = false
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_call_parameter_list_parentheses = false
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+csharp_space_between_method_declaration_name_and_open_parenthesis = false
+csharp_space_between_method_declaration_parameter_list_parentheses = false
+csharp_space_between_parentheses = false
+csharp_space_between_square_brackets = false
+
+#Blocks
+csharp_prefer_braces = true:silent
+csharp_preserve_single_line_blocks = true
+csharp_preserve_single_line_statements = true
+
+# Switch-Case
+	# IDE0010: Add missing cases
+dotnet_diagnostic.IDE0010.severity = none
+	# IDE0072: Add missing cases (switch expression)
+dotnet_diagnostic.IDE0072.severity = none
+csharp_style_prefer_switch_expression = true:none
+
+# Parentheses
+	# IDE0047: Remove unnecessary parentheses
+dotnet_diagnostic.IDE0047.severity = none
+	# IDE0048: Add parentheses for clarity
+dotnet_diagnostic.IDE0048.severity = none
+
+# Other
+csharp_style_implicit_object_creation_when_type_is_apparent = true:suggestion
+csharp_style_throw_expression = true:suggestion
+csharp_prefer_braces = false:silent
+csharp_prefer_static_local_function = true:suggestion 
+csharp_style_prefer_null_check_over_type_check = true:suggestion
+csharp_prefer_simple_default_expression = true:suggestion
+csharp_style_prefer_local_over_anonymous_function = true:suggestion
+csharp_style_inlined_variable_declaration = true:suggestion
+csharp_style_unused_value_assignment_preference = discard_variable:warning
+csharp_style_prefer_readonly_struct = true:suggestion
+csharp_style_allow_embedded_statements_on_same_line_experimental = true:silent
+
+	# CS1717: Local variable assignment made to same name as field
+dotnet_diagnostic.CS1717.severity = none
+
+
+# ---------- .NET Analyzers ----------
+
+# IDE0001: Simplify name
+dotnet_diagnostic.IDE0001.severity = suggestion
+# IDE0002: Simplify member access
+dotnet_diagnostic.IDE0002.severity = suggestion
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = none
+# IDE0060: Remove unused parameter
+dotnet_diagnostic.IDE0060.severity = warning
+
+# ---------- UNITY analyzers ----------
+
+# https://github.com/microsoft/Microsoft.Unity.Analyzers/tree/main/doc
+
+# UNT0001: Empty Unity message
+dotnet_diagnostic.UNT0001.severity = warning
+# UNT0002: Inefficient tag comparison
+dotnet_diagnostic.UNT0002.severity = warning
+# UNT0003: Usage of non generic GetComponent
+dotnet_diagnostic.UNT0003.severity = warning
+# UNT0004: Time.fixedDeltaTime used with Update
+dotnet_diagnostic.UNT0004.severity = warning
+# UNT0005: Time.deltaTime used with FixedUpdate
+dotnet_diagnostic.UNT0005.severity = warning
+# UNT0006: Incorrect message signature
+dotnet_diagnostic.UNT0006.severity = warning
+# UNT0007: Null propagation on Unity objects
+dotnet_diagnostic.UNT0007.severity = warning
+# UNT0008: Null propagation on Unity objects
+dotnet_diagnostic.UNT0008.severity = warning
+# UNT0009: Missing static constructor with InitializeOnLoad
+dotnet_diagnostic.UNT0009.severity = warning
+# UNT0010: Component instance creation
+dotnet_diagnostic.UNT0010.severity = warning
+# UNT0011: ScriptableObject instance creation
+dotnet_diagnostic.UNT0011.severity = warning
+# UNT0012: Unused Coroutine Return Value
+dotnet_diagnostic.UNT0012.severity = warning
+# UNT0013: Invalid or redundant SerializeField attribute
+dotnet_diagnostic.UNT0013.severity = warning
+# UNT0014: GetComponent called with non-Component or non-Interface Type
+dotnet_diagnostic.UNT0014.severity = warning
+# UNT0015:Incorrect method signature with InitializeOnLoadMethod, RuntimeInitializeOnLoadMethod or DidReloadScripts attribute
+dotnet_diagnostic.UNT0015.severity = warning
+# UNT0016: Unsafe way to get the method name
+dotnet_diagnostic.UNT0016.severity = warning
+# UNT0017: SetPixels invocation is slow
+dotnet_diagnostic.UNT0017.severity = suggestion
+# UNT0018: System.Reflection features in performance critical messages
+dotnet_diagnostic.UNT0018.severity = warning
+# UNT0019: Unnecessary indirection call for GameObject.gameObject
+dotnet_diagnostic.UNT0019.severity = warning
+# UNT0020: MenuItem attribute used on non-static method
+dotnet_diagnostic.UNT0020.severity = warning
+# UNT0021: Unity message should be protected
+dotnet_diagnostic.UNT0021.severity = none 
+# UNT0022: Inefficient method to set position and rotation
+dotnet_diagnostic.UNT0022.severity = warning
+# UNT0023: Coalescing assignment on Unity objects
+dotnet_diagnostic.UNT0023.severity = warning
+# UNT0024: Give priority to scalar calculations over vector calculations
+dotnet_diagnostic.UNT0024.severity = warning
+# UNT0025: Input.GetKey overloads with KeyCode argument
+dotnet_diagnostic.UNT0025.severity = warning
+# UNT0026: GetComponent always allocates
+dotnet_diagnostic.UNT0026.severity = warning
+# UNT0027: Do not call PropertyDrawer.OnGUI()
+dotnet_diagnostic.UNT0027.severity = warning
+# UNT0028: Use non-allocating physics APIs
+dotnet_diagnostic.UNT0028.severity = warning
+# UNT0029: Pattern matching with null on Unity objects
+dotnet_diagnostic.UNT0029.severity = warning
+# UNT0030: Calling Destroy or DestroyImmediate on a Transform
+dotnet_diagnostic.UNT0030.severity = warning
+# UNT0031: Asset operations in LoadAttribute method
+dotnet_diagnostic.UNT0031.severity = warning
+# UNT0032: Inefficient method to set localPosition and localRotation
+dotnet_diagnostic.UNT0032.severity = warning
+# UNT0033: Incorrect message case
+dotnet_diagnostic.UNT0033.severity = warning
+
+# Supressing other diagnostics:
+
+# USP0001: Unity objects should not use null coalescing
+dotnet_diagnostic.USP0001.severity = warning
+# USP0002: Unity objects should not use null propagation
+dotnet_diagnostic.USP0002.severity = warning
+# USP0003: The Unity runtime invokes Unity messages
+dotnet_diagnostic.USP0003.severity = warning
+# USP0004: Don't set fields with SerializeField or SerializeReference attributes to read-only
+dotnet_diagnostic.USP0004.severity = warning
+# USP0005: The Unity runtime invokes Unity messages
+dotnet_diagnostic.USP0005.severity = warning
+# USP0006: Don't flag private fields with SerializeField or SerializeReference attributes as unused
+dotnet_diagnostic.USP0006.severity = warning
+# USP0007: Don't flag fields with SerializeField or SerializeReference attributes as never assigned
+dotnet_diagnostic.USP0007.severity = warning
+# USP0008: Don't flag private methods used with Invoke/InvokeRepeating or StartCoroutine/StopCoroutine as unused
+dotnet_diagnostic.USP0008.severity = warning
+# USP0009: Don't flag methods with the ContextMenu attribute or referenced by a field with the ContextMenuItem attribute as unused
+dotnet_diagnostic.USP0009.severity = warning
+# USP0010: Don't flag fields with the ContextMenuItem attribute as unused
+dotnet_diagnostic.USP0010.severity = warning
+# USP0011: Don't make fields with the ContextMenuItem attribute read-only
+dotnet_diagnostic.USP0011.severity = warning
+# USP0012: Don't flag private methods decorated with InitializeOnLoadMethodAttribute, RuntimeInitializeOnLoadMethodAttribute or DidReloadScripts as unused
+dotnet_diagnostic.USP0012.severity = warning
+# USP0013: Don't flag private fields with SerializeField or SerializeReference attributes as unused
+dotnet_diagnostic.USP0013.severity = warning
+# USP0014: The Unity runtime invokes Unity messages
+dotnet_diagnostic.USP0014.severity = warning
+# USP0015: The Unity runtime invokes Unity messages
+dotnet_diagnostic.USP0015.severity = warning
+# USP0016: Initialization detection with nullable reference types
+dotnet_diagnostic.USP0016.severity = warning
+# USP0017: Unity objects should not use coalescing assignment
+dotnet_diagnostic.USP0017.severity = warning
+# USP0018: Unity objects should not be used with throw expressions
+dotnet_diagnostic.USP0018.severity = warning
+# USP0019: Don't flag private methods decorated with PreserveAttribute or UsedImplicitlyAttribute as unused
+dotnet_diagnostic.USP0019.severity = warning
+# USP0020: The Unity runtime invokes Unity messages
+dotnet_diagnostic.USP0020.severity = warning

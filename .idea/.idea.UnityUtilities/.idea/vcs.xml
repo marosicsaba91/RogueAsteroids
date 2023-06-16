@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Assets/MarosiUtility" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/Packages/UnityEditorIcons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/UnityEditorIcons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/MarosiUtility" vcs="Git" />
+  </component>
+</project>

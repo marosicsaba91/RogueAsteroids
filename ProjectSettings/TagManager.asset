@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - Grass
+  - Road
+  - Block
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 28906441
+    locked: 0
+  - name: Game UI
+    uniqueID: 3391688739
+    locked: 0
+  - name: Gameplay
+    uniqueID: 838802077
+    locked: 0
+  - name: UI Overlay
+    uniqueID: 2493235067
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

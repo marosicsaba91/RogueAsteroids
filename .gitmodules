@@ -1,0 +1,27 @@
+[submodule "Packages/SerializableCollections"]
+	path = Packages/SerializableCollections
+	url = https://github.com/marosicsaba91/SerializableCollections.git
+[submodule "Packages/MarosiUtility"]
+	path = Packages/MarosiUtility
+	url = https://github.com/marosicsaba91/MarosiUtility.git
+[submodule "Packages/LooseLink"]
+	path = Packages/LooseLink
+	url = https://github.com/marosicsaba91/LooseLink.git
+[submodule "Packages/ComponentRegistry"]
+	path = Packages/ComponentRegistry
+	url = https://github.com/marosicsaba91/ComponentRegistry.git
+[submodule "Packages/PlayBox"]
+	path = Packages/PlayBox
+	url = https://github.com/marosicsaba91/PlayBox.git
+[submodule "Packages/PlayLogger"]
+	path = Packages/PlayLogger
+	url = https://github.com/marosicsaba91/PlayLogger.git
+[submodule "Packages/StarterAssets"]
+	path = Packages/StarterAssets
+	url = https://github.com/marosicsaba91/StarterAssets.git
+[submodule "Packages/VoxelSystem"]
+	path = Packages/VoxelSystem
+	url = https://github.com/marosicsaba91/VoxelSystem.git
+[submodule "Assets/Small Projects/Mesh To Block Builder"]
+	path = Assets/Small Projects/Mesh To Block Builder
+	url = https://github.com/marosicsaba91/MeshToBlockBulder.git
