@@ -24,6 +24,8 @@ class UpgradeManager : SingletonMonoBehaviour<UpgradeManager>
 
 	bool _enableSpawn;
 
+	public static void EnableSpawn(bool enabled) => Instance._enableSpawn = enabled;
+
 	protected sealed override void SingletonAwake()
 	{
 		AsteroidManager.AsteroidsCleared += SpawnUpgrades;

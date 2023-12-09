@@ -167,7 +167,6 @@ class AsteroidManager : SingletonMonoBehaviour<AsteroidManager>
 
 			if (data.spawnEffect && newAsteroid.spawnEffect != null)
 			{
-				Debug.Log("Spawn effect");
 				EffectManager.Play(newAsteroid.spawnEffect, data.position, 0);
 			}
 

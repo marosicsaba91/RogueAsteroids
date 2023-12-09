@@ -1,12 +1,15 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
 class GameUIManager : SingletonMonoBehaviour<GameUIManager>
 {
 	[SerializeField] TMP_Text levelText;
-	[SerializeField] TMP_Text rocketText;
 	[SerializeField] TMP_Text healthText;
 	[SerializeField] RectTransform maxHealthFrame;
 	[SerializeField] RectTransform currentHealthBar;
+	[SerializeField] Button fullScreenButton;
+	[SerializeField] Button muteButton; 
 
 	[SerializeField] AnimationCurve healthToLength;
 	[SerializeField] float healthChangeSpeed = 10f;
@@ -17,6 +20,9 @@ class GameUIManager : SingletonMonoBehaviour<GameUIManager>
 		AsteroidsGameManager.RestartGame += OnRestartGame;
 		AsteroidsGameManager.NewLevelLoaded += _ => UpdateUI();
 		Player.HealthChanged += UpdateUI;
+		fullScreenButton.onClick.AddListener(FullScreen);
+		muteButton.onClick.AddListener(() => AudioListener.pause = !AudioListener.pause);
+		AudioListener.pause = true;
 	}
 
 	void OnRestartGame()
@@ -61,6 +67,23 @@ class GameUIManager : SingletonMonoBehaviour<GameUIManager>
 			Vector2 sizeDelta = maxHealthFrame.sizeDelta;
 			sizeDelta.x = healthToLength.Evaluate(_shownMaxHealth);
 			maxHealthFrame.sizeDelta = sizeDelta;
+		}
+	}
+
+	Resolution windowedResolution = new() { width = 1080, height = 720 };
+	void FullScreen()
+	{
+		if (Screen.fullScreen)
+		{
+			// TO WINDOWED
+			Screen.SetResolution(windowedResolution.width, windowedResolution.height, false);
+		}
+		else
+		{
+			// TO FULLSCREEN
+			windowedResolution = Screen.resolutions[0];
+			Resolution fullScreenResolution = Screen.currentResolution;
+			Screen.SetResolution(fullScreenResolution.width, fullScreenResolution.height, true);
 		}
 	}
 }

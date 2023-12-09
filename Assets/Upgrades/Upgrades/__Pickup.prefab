@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 5748562940756552480}
   - component: {fileID: 5225018398227940774}
   - component: {fileID: 8737020151454962321}
-  - component: {fileID: 4794854287567937532}
   m_Layer: 0
   m_Name: Pickup Text
   m_TagString: Untagged
@@ -259,20 +258,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 5225018398227940774}
   m_maskType: 0
---- !u!114 &4794854287567937532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567372209642461403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e0ea5e37bcda244ea465966352fc9aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortingOrder: 0
-  sortingLayerID: 2
 --- !u!1 &3002112618142740091
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +352,7 @@ MonoBehaviour:
   initialMaxHealth: 100
   minimumDamage: 1
   destroyOnDeath: 0
+  enableImpact: 1
 --- !u!114 &3711574225103804174
 MonoBehaviour:
   m_ObjectHideFlags: 0

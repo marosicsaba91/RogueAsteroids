@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,14 +8,28 @@ public class PauseCanvas : MonoBehaviour
 
 	[SerializeField] Animator pauseAnimator;
 	[SerializeField] Button continueButton;
+	[SerializeField] Button pauseButton;
+	[SerializeField] Button restartButton;
 
 	void OnValidate()
 	{
 		if (pauseAnimator == null)
-			pauseAnimator = GetComponent<Animator>();
-		if (continueButton == null)
-			continueButton = GetComponentInChildren<Button>();
-	}	 
+			pauseAnimator = GetComponent<Animator>(); 
+	}
+
+	void Start()
+	{
+		continueButton.onClick.AddListener(Pause);
+		pauseButton.onClick.AddListener(Pause);
+		restartButton.onClick.AddListener(Restart);
+	}
+
+	void Restart() 
+	{
+		Pause();
+		UpgradeManager.EnableSpawn(false);
+		AsteroidsGameManager.DoRestartGame();
+	}
 
 	void Update()
 	{

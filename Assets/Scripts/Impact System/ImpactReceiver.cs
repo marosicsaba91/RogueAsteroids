@@ -11,10 +11,14 @@ public class ImpactReceiver : MonoBehaviour
 	[SerializeField] float minimumDamage = 1;
 	[SerializeField] bool destroyOnDeath = false;
 
+	[SerializeField] bool enableImpact = true;
+
 	public event Action HealthChanged;
 	public event Action LostAllHealth;
 	public float Inertia => inertia;
 	public float HealthRate => CurrentHealth / MaxHealth;
+
+
 
 	void Awake()
 	{
@@ -48,7 +52,11 @@ public class ImpactReceiver : MonoBehaviour
 		get => _currentHealth;
 		set => _currentHealth = Mathf.Clamp(value, 0, MaxHealth);
 	}
-	public bool EnableImpact { get; internal set; } = true;
+	public bool EnableImpact 
+	{ 
+		get => enableImpact;
+		internal set => enableImpact = value;
+	} 
 
 	void OnValidate()
 	{
